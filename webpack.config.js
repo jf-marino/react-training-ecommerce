@@ -18,7 +18,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   module: {
-    loaders: [
+  loaders: [
       {
         test: /(\.js|\.jsx)$/,
         loader: 'babel-loader',
